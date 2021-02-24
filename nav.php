@@ -22,9 +22,10 @@
         </div>
 
         <div id="div-shop-name">
+            <div id="alert">Wszystko na tej stronie jest fikcją stworzną tylko i wyłącznie na potrzeby gry GTA 5!</div>
             <span id="main-title">
                 <a href="index.php" style="text-decoration:none; background-color: none; color:green;">
-                    Weed Dealer
+                    Drug Dealer
                 </a>
             </span>
         </div>
@@ -81,19 +82,19 @@
                 <div id="lower-div-nav-buttons">
 
                     <div class="button-nav-div">
-                        <a class="button-nav" href="#">Przycisk1</a>
+                        <a class="button-nav" href="marijuana.php">Marihuana</a>
                     </div>
 
                     <div class="button-nav-div">
-                        <a class="button-nav" href="#">przycisk2</a>
+                        <a class="button-nav" href="#">Kokaina</a>
                     </div>
 
                     <div class="button-nav-div">
-                        <a class="button-nav" href="#">przycisk3</a>
+                        <a class="button-nav" href="#">Metamfetamina</a>
                     </div>
 
                     <div class="button-nav-div">
-                        <a class="button-nav" href="#">przycisk4</a>
+                        <span id="not-logged-in">Niezalogowany</span>
                     </div>
 
                 </div>

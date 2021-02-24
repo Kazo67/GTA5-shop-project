@@ -55,6 +55,14 @@
     font-size: 40px;
     font-weight: 700;
     background-color: slateblue;
+    position: relative;
+}
+#alert{
+    line-height: 4px;
+    position:absolute;
+    top:3px;
+    left:50px;
+    font-size: 9px;
 }
 
 /* div z zalogowaniem, rejestracją oraz wylogowaniem gdy jestesmy zalogowani */
@@ -169,6 +177,13 @@
     width: 800px;
     height: 800px;
     background-color: goldenrod;
+}
+
+
+#not-logged-in{
+    font-size: 25px;
+    line-height: 90px;
+    font-weight: 700;
 }
 
 
