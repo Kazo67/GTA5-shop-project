@@ -1,0 +1,34 @@
+/* dla całej strony */
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #8992b4;
+}
+
+/* Cała strona */
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 1000px;
+    background-color: olivedrab;
+}
+
+/* div z nav */
+#nav{
+    float:left;
+    width: 800px;
+    height: 200px;
+    background-color: rgb(172, 126, 126);
+}
+
+/* zawartość strony */
+#content{
+    float:left;
+    width: 800px;
+    height: 800px;
+    background-color: rgb(161, 135, 86);
+}
+
+

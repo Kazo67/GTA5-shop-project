@@ -1,0 +1,174 @@
+/* Tytuł strony */
+#main-title{
+    text-shadow: 2px 2px white;
+}
+/* div wraz z koszykiem, nazwą sklepu oraz 'zaloguj zarejestruj etc' */
+#higher-div-nav{
+    float:left;
+    height: 100px;
+    width: 800px;
+    background-color: darkgoldenrod;
+}
+
+/* div z przyciskami w nav */
+#lower-div-nav-buttons{
+    text-align: center;
+    float:left;
+    height: 100px;
+    width: 800px;
+    background-color: rebeccapurple;
+}
+
+/* div z koszykiem */
+#div-car-image{
+    float:left;
+    height: 100px;
+    width: 200px;
+    background-color: salmon;
+    text-align:center;
+}
+#car-image{
+    float:left;
+    height: 65px;
+    width: 200px;
+}
+#title-under-car-image{
+    float:left;
+    height: 35px;
+    width: 200px;
+}
+#my-cars-title{
+    font-size: 20px;
+    font-weight: 700;
+    background-color:none;
+    text-decoration:none;
+    color:black;
+}
+
+/* div z nazwą sklepu */
+#div-shop-name{
+    text-align: center;
+    float:left;
+    height: 100px;
+    width: 400px;
+    line-height: 90px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: slateblue;
+}
+
+/* div z zalogowaniem, rejestracją oraz wylogowaniem gdy jestesmy zalogowani */
+#div-isset-user{
+    float:left;
+    height: 100px;
+    width: 200px;
+    background-color: royalblue;
+}/* gdy jesteśmy zalogowani */
+#logged-as-div{
+    text-align: center;
+    float:left;
+    height: 50px;
+    width: 200px;
+    font-size: 19px;
+}
+#log-out-button-div{
+    line-height: 60px;
+    text-align: right;
+    float:left;
+    height: 50px;
+    width: 200px;
+}
+#log-out-button{
+    text-decoration: none;
+    background-color: none;
+    color: black;
+    border: solid black 2px;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 3px;
+}
+#log-out-button:hover{
+    background-color: goldenrod;
+}
+/* gdy jesteśmy NIE zalogowani */
+#register-button-div{
+    text-align: center;
+    float:left;
+    height: 50px;
+    width: 200px;
+    font-size: 19px;
+}
+#log-in-button-div{
+    text-align:center;
+    float:left;
+    height: 50px;
+    width: 200px;
+}
+.button{
+    text-decoration: none;
+    background-color: none;
+    color: black;
+    border-radius: 15px;
+    border: black 2px solid;
+    line-height: 50px;
+    padding: 2px;
+}
+.button:hover{
+    background-color: #4e556e;
+    cursor:pointer;
+}
+
+
+
+
+/* div z przyciskami w nav */
+#lower-div-nav-buttons{
+    float:left;
+    height: 100px;
+    width: 800px;
+}
+
+/* przyciski w nav */
+.button-nav-div{
+    float:left;
+    height: 100px;
+    width: 200px;
+}
+.button-nav-sticky{
+    text-decoration: none;
+    background-color: none;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    border: black 2px solid;
+    text-align: center;
+    line-height: 90px;
+}
+.button-nav{
+    text-decoration: none;
+    background-color: none;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    border: black 2px solid;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 90px;
+}
+.button-nav:hover{
+    background-color: #4e556e;
+    cursor:pointer;
+}
+
+
+
+
+/* CSS dla div content na kazdej stronie */
+#content{
+    float:left;
+    width: 800px;
+    height: 800px;
+    background-color: goldenrod;
+}
+
+
